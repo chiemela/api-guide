@@ -72,7 +72,7 @@
         
         }
 
-        return $res = $returnError ? $returnError : $data;
+        $res = $returnError ? $returnError : $data;
 
     } catch (\Throwable $th) {
         echo $th;
